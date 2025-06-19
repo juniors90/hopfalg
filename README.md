@@ -26,33 +26,32 @@ ${}_H^H \mathcal{YD}$ aparece de esta manera.
 En esta nota seguiremos este enfoque y desarrollaremos en detalle
 los siguientes aspectos:
 
-\begin{itemize}
-    \item Definiremos la categoría de módulos de Yetter-Drinfeld
-    sobre un álgebra de grupo $\Bbbk G$, es decir, daremos la
-    caracterización explícita de sus objetos y morfismos.
-    \item Mostraremos que un objeto $M$ de ${}_H^H \mathcal{YD}$
-    equivale a un $G$-módulo graduado por $G$, es decir, una
-    descomposición $M = \bigoplus_{g \in G} M_g$ compatible con la
-    acción de $G$ de modo que $g \cdot M_h \subseteq M_{ghg^{-1}}$
-    para todo $g,h \in G$.
-    \item Presentaremos la construcción de los objetos simples
-    $M(g,\rho)$ a partir de una clase de conjugación $\mathcal{O}_g$
-    y una representación irreducible $\rho$ del subgrupo centralizador
-    $\Gamma_g$, siguiendo la [Definición~3.1.1](https://arxiv.org/abs/math/9802074v3) de
-    Andruskiewitsch-Graña.
-    \item Demostraremos la [Proposición~3.1.2](https://arxiv.org/abs/math/9802074v3): que todo
-    objeto simple de ${}_H^H \mathcal{YD}$ es isomorfo a uno de los
-    $M(g,\rho)$, y que estos forman una familia de representantes no
-    isomorfos.
-    \item Consideraremos el caso en que $G$ es abeliano, donde la
-    categoría toma una forma especialmente sencilla, descrita en el
-    [Corolario~3.1.3.](https://arxiv.org/abs/math/9802074v3)
-    \item Finalmente, utilizaremos GAP para  dar una descripción
-    completa de los objetos simples en ${}_H^H \mathcal{YD}$
-    cuando $G = \mathbb{S}_3$, el grupo simétrico de tres
-    elementos, determinando todos los posibles pares
-    $(g,\rho)$ que dan lugar a objetos simples.
-\end{itemize}
+- Definiremos la categoría de módulos de Yetter-Drinfeld
+sobre un álgebra de grupo $\Bbbk G$, es decir, daremos la
+caracterización explícita de sus objetos y morfismos.
+- Mostraremos que un objeto $M$ de ${}_H^H \mathcal{YD}$
+equivale a un $G$-módulo graduado por $G$, es decir, una
+descomposición $M = \bigoplus_{g \in G} M_g$ compatible con la
+acción de $G$ de modo que $g \cdot M_h \subseteq M_{ghg^{-1}}$
+para todo $g,h \in G$.
+- Presentaremos la construcción de los objetos simples
+$M(g,\rho)$ a partir de una clase de conjugación $\mathcal{O}_g$
+y una representación irreducible $\rho$ del subgrupo centralizador
+$\Gamma_g$, siguiendo la [Definición~3.1.1](https://arxiv.org/abs/math/9802074v3) de
+Andruskiewitsch-Graña.
+- Demostraremos la [Proposición~3.1.2](https://arxiv.org/abs/math/9802074v3): que todo
+objeto simple de ${}_H^H \mathcal{YD}$ es isomorfo a uno de los
+$M(g,\rho)$, y que estos forman una familia de representantes no
+isomorfos.
+- Consideraremos el caso en que $G$ es abeliano, donde la
+categoría toma una forma especialmente sencilla, descrita en el
+[Corolario~3.1.3.](https://arxiv.org/abs/math/9802074v3)
+- Finalmente, utilizaremos GAP para  dar una descripción
+completa de los objetos simples en ${}_H^H \mathcal{YD}$
+cuando $G = \mathbb{S}_3$, el grupo simétrico de tres
+elementos, determinando todos los posibles pares
+$(g,\rho)$ que dan lugar a objetos simples.
+
 
 El objetivo es presentar estos resultados con el grado de
 detalle necesario para su comprensión rigurosa, haciendo
