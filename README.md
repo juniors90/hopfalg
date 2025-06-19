@@ -29,10 +29,10 @@ los siguientes aspectos:
 - Definiremos la categoría de módulos de Yetter-Drinfeld
 sobre un álgebra de grupo $\Bbbk G$, es decir, daremos la
 caracterización explícita de sus objetos y morfismos.
-- Mostraremos que un objeto $M$ de ${}_H^H \mathcal{YD}$
+- Mostraremos que un objeto $M$ de ${{}_H^H \mathcal{YD}}$
 equivale a un $G$-módulo graduado por $G$, es decir, una
 descomposición $M = \bigoplus_{g \in G} M_g$ compatible con la
-acción de $G$ de modo que $g \cdot M_h \subseteq M_{ghg^{-1}}$
+acción de $G$ de modo que $g \cdot M_{h} \subseteq M_{ghg^{-1}}$
 para todo $g,h \in G$.
 - Presentaremos la construcción de los objetos simples
 $M(g,\rho)$ a partir de una clase de conjugación $\mathcal{O}_g$
